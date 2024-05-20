@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4  # Perbarui ke versi terbaru yang mendukung Node.js 20
+        uses: actions/checkout@v4  # Menggunakan versi terbaru yang mendukung Node.js 20
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
@@ -41,7 +41,7 @@ jobs:
       #   run: php artisan breeze:install --no-interaction
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3  # Perbarui ke versi terbaru yang mendukung Node.js 20
+        uses: actions/setup-node@v4  # Menggunakan versi terbaru yang mendukung Node.js 20
         with:
           node-version: '20' # Atur versi Node.js sesuai kebutuhan Anda
 
@@ -58,7 +58,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4  # Perbarui ke versi terbaru yang mendukung Node.js 20
+        uses: actions/checkout@v4  # Menggunakan versi terbaru yang mendukung Node.js 20
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
@@ -84,7 +84,7 @@ jobs:
       #   run: php artisan breeze:install --no-interaction
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3  # Perbarui ke versi terbaru yang mendukung Node.js 20
+        uses: actions/setup-node@v4  # Menggunakan versi terbaru yang mendukung Node.js 20
         with:
           node-version: '20' # Atur versi Node.js sesuai kebutuhan Anda
 
